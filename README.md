@@ -4,13 +4,8 @@ A chat-based game that's a fun twist on the Turing Test!
 
 ## Take a Look: 
 
-<<<<<<< HEAD
-This project is currently under development, but it will be available here soon:
-  (https://spotbot3.herokuapp.com)
-=======
 This project is currently deployed on heroku, come check it out!
   (https://spotbot102.herokuapp.com)
->>>>>>> 2052d99c07e7db6498cc622b1fab1ebbcdc7a089
 
 ### Purpose
 
