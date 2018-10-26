@@ -48,7 +48,7 @@ class Homepage extends React.Component {
 
             </div>
           </div>
-          <button className="btn btn-dark" id="enter-btn" onClick={this.props.auth.login}>LOG IN TO PLAY!</button>
+          <button className="btn btn-dark" id="enter-btn" onClick=""><a href="/game">LOG IN TO PLAY!</a></button>
         </div>
       </div>
     )

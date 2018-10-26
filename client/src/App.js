@@ -10,26 +10,22 @@ import Waitingroom from "./pages/Waitingroom";
 const App = props => {
 
   return (
-    <div>
-      <Route path="/callback" render={() => (
+    <div className="container">
+      {/* <Route path="/callback" render={() => (
         <Callback auth={props.auth} />
-      )} />
+      )} /> */}
       <Route exact path="/" render={() => {
         return (
-          <Homepage auth={props.auth} />
-        )
-      }} />
+          <Homepage  />
+        ) }} />
       <Route exact path="/game" render={() => {
-        return (props.auth.isAuthenticated()) ? (
-          <Game auth={props.auth} history={props.history} />
-        ) : (<Redirect to="/" />)
-      }} />
+        return (
+          <Game history={props.history} />
+        ) }} />
       <Route exact path="/waitingroom" render={() => {
-        return (props.auth.isAuthenticated()) ? (
-          <Waitingroom auth={props.auth} history={props.history} />
-        ) : (<Redirect to="/" />)
-      }} />
-
+        return (
+          <Waitingroom history={props.history} />
+        ) }} />
     </div>
   )
 }

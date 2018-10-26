@@ -8,9 +8,9 @@ const origin = window.location.origin;
 export default class Auth {
   constructor() {
     this.auth0 = new auth0.WebAuth({
-      domain: 'tindang.auth0.com',
-      audience: 'https://tindang.auth0.com/userinfo',
-      clientID: 'bYJ74HYs2ygdgG1lEuTIlmruxiOn7cDX',
+      domain: '*.auth0.com',
+      audience: 'https://*.auth0.com/userinfo',
+      clientID: '***************************',
       redirectUri: origin + '/callback',
       responseType: 'token id_token',
       scope: 'openid profile'
