@@ -27,7 +27,7 @@ class Waitingroom extends React.Component {
                     <h4 className="text-center wr"><img alt="#" className="smallImg fl" id="wait-bot" src="/assets/images/noun_Chatbot_933467.png" />Pull up a chair and relax, or jump into a game!<br/><br/> Tired of sitting out while others play? Multiple game rooms: in an ice box near you! </h4><br/>
                     {/* <h2>This is currently in p</h2> This will be for future development to check how many people are in the room*/}
                     <button className="btn btn-dark" id="wait-btn-pad1" onClick={this.playAgain} >Play Again</button>
-                    <button className="btn btn-dark" id="wait-btn-pad2" onClick={this.logout} >Logout</button>
+                    {/* <button className="btn btn-dark" id="wait-btn-pad2" onClick={this.logout} >Logout</button> */}
                 </div>
             </div>
         )
